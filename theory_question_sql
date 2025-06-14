@@ -1,0 +1,51 @@
+######Day 1######
+  
+What is SQL? Why is it important for data analysts?
+Answer:
+SQL (Structured Query Language) is a standard language used to communicate with relational databases. It allows data analysts to:
+Retrieve specific data using SELECT statements
+Join multiple tables to get complete insights
+Clean, filter, and summarize large datasets
+Create views, update records, and manage database schemas
+SQL is crucial because most business data is stored in relational databases like MySQL, PostgreSQL, SQL Server, or Oracle.
+
+2.  What are the different types of JOINs in SQL?
+Answer:
+There are mainly four types of joins:
+🔹 INNER JOIN: Returns only matched rows from both tables
+🔹 LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table and matched rows from the right
+🔹 RIGHT JOIN: All rows from the right table and matched rows from the left
+🔹 FULL JOIN: All rows from both tables, with NULLs where no match exists
+
+3.  What is the difference between WHERE and HAVING clauses?
+Answer:
+WHERE filters rows before aggregation (on raw data).
+HAVING filters rows after aggregation (on aggregated results).
+
+4.  What are Window Functions? How are they different from Aggregate Functions?
+Answer:
+Aggregate functions (like SUM, AVG) group data and return a single value per group.
+Window functions return a value for each row while still allowing aggregation over a window (set of rows).
+
+5.  What is data cleaning? Why is it important?
+Answer:
+Data cleaning is the process of correcting or removing inaccurate, duplicate, or incomplete data.
+It is important because:
+Inaccurate data can lead to wrong insights
+Clean data improves model performance
+It ensures better decision-making
+
+6.  What is the difference between primary key and foreign key?
+Answer:
+🔹 Primary Key: A column (or set of columns) that uniquely identifies each record in a table.
+🔹 Foreign Key: A column that links one table to another by referencing the primary key in the related table.
+
+7.  What is normalization in SQL?
+Answer:
+Normalization is the process of organizing tables to minimize redundancy and dependency. It improves data integrity and efficiency.
+Common normal forms:
+1NF: No repeating groups
+2NF: Full functional dependency
+3NF: No transitive dependency
+
+
